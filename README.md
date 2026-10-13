@@ -14,8 +14,8 @@
 | Platform | Android (Flutter) |
 | Bahasa UI | Indonesia |
 | Deadline | 13 Oktober 2026, 15.00 WIB |
-| GitHub | *(isi URL repository setelah di-push)* |
-| Anggota Kelompok | *(isi nama anggota kelompok)* |
+| GitHub | *https://github.com/Natannstrs/Eco-grid-system/tree/main* |
+| Anggota Kelompok | *Jonathan Steven Sitorus* |
 
 ---
 
@@ -202,35 +202,3 @@ flutter build apk --release
 
 ---
 
-## 📸 Cara Screenshot Gesture (untuk Laporan)
-
-```bash
-# Ambil screenshot dari perangkat/emulator yang terhubung
-flutter screenshot --out=screenshots/before_tap.png
-# [lakukan gestur]
-flutter screenshot --out=screenshots/after_tap.png
-```
-
-Atau gunakan fitur screenshot bawaan perangkat (tombol Power + Volume Bawah).
-
----
-
-## 📤 Cara Upload ke GitHub
-
-```bash
-# Inisialisasi repo (jika belum)
-git init
-git add .
-git commit -m "feat: initial EcoGrid Dashboard implementation"
-
-# Hubungkan ke remote
-git remote add origin https://github.com/<username>/<repo-name>.git
-
-# Push
-git branch -M main
-git push -u origin main
-```
-
----
-
-*Dibuat dengan Flutter 💚 | SDG 7 & SDG 13*
